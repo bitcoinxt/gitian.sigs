@@ -1,12 +1,12 @@
 --- !omap
-- out_manifest: ! '16ac071968f0dee616b2b68c352820900bdfc0bc4ced1d7635c32217bddf6c19  bitcoin-osx-signed.dmg
+- out_manifest: ! '5f80478007209b07e9210fa7435d52871b838b8cbbab5acd74b6ae9475a2d27d  bitcoin-osx-signed.dmg
 
 '
 - in_manifest: ! '7e6561580cb017b3fb18cdab96e9703435bb34e7ad56633db3e52c3e933099ee  bitcoin-dmg-signer-desc.yml
 
     b3dbcb589dde10b6a0fda9c259e553a4a1b0a970a4300e09ba44388ed1c1ce34  bitcoin-osx-unsigned.tar.gz
 
-    git:d859608f12ca1acb69331f4ec6bb04dd438348f0 signature'
+    git:5cd47afd50cf4c79a5fea9e4ed55333e30edd0df signature'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -31,10 +31,6 @@
       d51c92667e13d4943c923bd85438a3df15bb6a9f8005da509c78ecbc727a9d19  base-passwd_3.5.24_amd64.deb
 
       4d2d8299d216886bc6a0e5c027e16d9ddbb0f8b96e6a0dbef1f01789467b130a  bash_4.2-2ubuntu2.6_amd64.deb
-
-      0801a9e040792dc67e0dc43cfeee2ed3c02246bec7f7e60d55eb98faf76c8d79  binutils-mingw-w64-i686_2.22-2ubuntu1+1_amd64.deb
-
-      05dbf7da59eba7d060a616aa0e73a9dc847b18d2f74ef3fc8e6e9483e7e5e172  binutils-mingw-w64-x86-64_2.22-2ubuntu1+1_amd64.deb
 
       cc098a7e379dda8e42fd0f08f9c5b6f8c55b6d0dd5cf71cfbb63bfc7f34019ab  binutils_2.22-6ubuntu1.3_amd64.deb
 
@@ -114,12 +110,6 @@
 
       981701bb7f5f94eccd4500432428b698e3e8f7634d454799a57de032f0ad836e  g++-4.6_4.6.3-1ubuntu5_amd64.deb
 
-      93616930c4f5e25649453378212d115d357f5c5fc2fe733b9b2dba4b3f3c7aa5  g++-mingw-w64-i686_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-
-      992584c2b49d6a3f71cb6fff627d0ee122c30e3a40ec3fce91308b27ce351f80  g++-mingw-w64-x86-64_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-
-      9a45775c9903adc68d539fb1137f888e910ad737a641248b205ddb1ac3cebdbd  g++-mingw-w64_4.6.3-1ubuntu5+5ubuntu1_all.deb
-
       4b586c67c572609a11ff5a37bf9745f67a30254db21ca2e788e27da7dedc7223  g++_4%3a4.6.3-1ubuntu5_amd64.deb
 
       ab0531d9ad0bba2b6f746a48b156de8f5733803b5737b4ab7bf7d6e7bd3738d6  gcc-4.6-base_4.6.3-1ubuntu5_amd64.deb
@@ -127,14 +117,6 @@
       e65b41c345c5d7501b9ad3d630a530b84666df7cdbe68dc4a9fb0873add3dd04  gcc-4.6-base_4.6.3-1ubuntu5_i386.deb
 
       ac9344b8ec6cae36696e705b3abcb4d918c51a7a1e49e91fbea6ecb7a1b47f6f  gcc-4.6_4.6.3-1ubuntu5_amd64.deb
-
-      d551c8072ccb5160c58a2d27274f52d2936ab510d8204304f8d17fe598e7c3c6  gcc-mingw-w64-base_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-
-      b96da6c91544c5b6a8d0877d1c4238ebc74930c54abd8ec7cf92169241c224be  gcc-mingw-w64-i686_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-
-      2e01635f574c465f8b98f233ff19df51a2c1559351939358d09c9286ed6acf61  gcc-mingw-w64-x86-64_4.6.3-1ubuntu5+5ubuntu1_amd64.deb
-
-      40ff915bd66e132cd5df6b423a93acac210cc9a7e33171443b9527cd018be79e  gcc-mingw-w64_4.6.3-1ubuntu5+5ubuntu1_all.deb
 
       6a9ca6ded16274f0f96801e72af3c4dcee00456d1e9d11bd597019d29ca0ea33  gcc_4%3a4.6.3-1ubuntu5_amd64.deb
 
@@ -510,10 +492,6 @@
 
       32dd97f26a2837df049ce7ff0857cce64d6a7c781f2e86d44c551d9fce5b416c  mime-support_3.51-1ubuntu1.1_all.deb
 
-      3dfa40882cb70b63c4a658c33c4d91592d7522e4ada7bfed1e7b40ee05ef55ac  mingw-w64-dev_2.0.1-1_all.deb
-
-      0757e9cddc8d655689994144886f63a38800c2c7c200d215f818636a6a149671  mingw-w64_2.0.1-1_all.deb
-
       bbfaa70db04ca2b476710cc1f3179895e96605fe6c911cc294de33086cbf71cd  module-init-tools_3.16-1ubuntu2_amd64.deb
 
       755fb6f5411832ff010ca111f98d5caf906f3af0cee9da8271d20eb9cf409388  mount_2.20.1-1ubuntu3.1_amd64.deb
@@ -531,10 +509,6 @@
       93ecae98786e01149684d9a7b2760e78c2b34d6ff647c52c6dd591d980d78be5  netbase_4.47ubuntu1_all.deb
 
       257bd1be995ec3c8195ff3373a87368398e8ff61c00b06068d8715f1b4ff9cee  netcat-openbsd_1.89-4ubuntu1_amd64.deb
-
-      baeed7c0c9efbb59af736dcd342befd8f51c343d430db50e71d13740065c0ad1  nsis-common_2.46-7_all.deb
-
-      19550390ff3bd7f5ba0e49527437d06f7082bc4246bc0af96ba5e096ad10c461  nsis_2.46-7_amd64.deb
 
       e5bd72b52f67a3d3510e7aee515398c97eacbd0f5cc566787e7544e8d080be44  ntpdate_1%3a4.2.6.p3+dfsg-1ubuntu3.4_amd64.deb
 
@@ -610,7 +584,7 @@
 
       c52bf53d1f2bf733eb0add71b32322c686a7bd396cb8893cbd89210165d90838  tcpd_7.6.q-21_amd64.deb
 
-      bade83e7cbf318767032aa6a9cafd9068adf029c6c4bb93fe13ba13070678c26  tzdata_2015d-0ubuntu0.12.04_all.deb
+      f91cbc3ce1e4c13cd999e0e22091222b4e47963d9f5f7fc27c20bdd2246e38ed  tzdata_2015f-0ubuntu0.12.04_all.deb
 
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
 
@@ -644,8 +618,6 @@
 
       7286d934162cc98f45deaa681a4c46fd3357a1b014ec456d840826a286ea2e3d  xz-utils_5.1.1alpha+20110809-3_amd64.deb
 
-      2c4446b9b00e400c1b1b982863556193822f7e15c2ca84feacd88a0e73b1800a  zip_3.0-4_amd64.deb
-
       46e68ab922ba0b8d29f1b6360fe1551eaed878336e0c13ed61d886704cd749d8  zlib1g-dev_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
 
       af0c73bd8d99f280a54570bc2008fccc57be5b6c9f3e1418c34497a8d5a2ffba  zlib1g_1%3a1.2.3.4.dfsg-3ubuntu4_amd64.deb
@@ -653,7 +625,7 @@
 '
 - cache_common_manifest: ''
 - cache_package_manifest: ''
-- release: 0.11A-osx-signed
+- release: 0.11-osx-signed
 - name: bitcoin-dmg-signer
 - type: build
 - optionals: 
