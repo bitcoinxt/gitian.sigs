@@ -1,14 +1,14 @@
 --- !omap
-- out_manifest: ! 'cc1e8dc5d4cd3ce473a8d3bdcda08b1fdd32257f0e866361f08e1f94e0ddd94f  bitcoin-0.11.0-linux32.tar.gz
+- out_manifest: ! '8705966cd735d5075e17aa03eff1b69c7c765dca5e826d8d849321db0650fc37  bitcoin-0.11.0-linux32.tar.gz
 
-    b90b2f63103195bbeb7342016a97923bf9484a29164a5ba9aac7113d20a4c3f2  bitcoin-0.11.0-linux64.tar.gz
+    6d130c57e4a2282696ed87ed10f2ef0c516069a24f7d407c96bee76ae18b4c37  bitcoin-0.11.0-linux64.tar.gz
 
-    2df5a0849474048b5627f6ebf64833da8418fcf0f90272d102fb9c3f295230ab  src/bitcoin-0.11.0.tar.gz
+    8fd371c4ecf678e1786cd2afbe979edb66b80ac86010f6b68c51abb03df7d8cd  src/bitcoin-0.11.0.tar.gz
 
 '
 - in_manifest: ! '36fa88204160316d1406d128cbae55c40cdda335e18539828dbeaf01641c6b7d  bitcoin-linux-0.11-desc.yml
 
-    git:d05f99fa796552fdb3a9b00367f306cbd48b5f29 bitcoin'
+    git:2b918beb7e822fdc4450165e2a0162a75b5160ff bitcoin'
 - base_manifests: !omap
   - precise-amd64: ! 'edf7640c085c66dbe776314f4d3f91512a27ca0be45f233a9b5666f9c7f8cce0  adduser_3.113ubuntu2_all.deb
 
@@ -1005,7 +1005,7 @@
     df79d68a91587b54320fb8ec36205dc59f6959b774ea6b10b4a21ca7e892ca24  x86_64-unknown-linux-gnu/xtrans/xtrans-1.3.4-23b01cec3da.tar.gz.hash
 
 '
-- release: 0.11-linux
+- release: 0.11A-linux
 - name: bitcoin-linux-0.11
 - type: build
 - optionals: 
