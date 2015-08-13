@@ -1,16 +1,16 @@
 --- !omap
-- out_manifest: ! '41854547025ef6d0b33ee1a38c341ef4ba65d394859b102df13cac73dc60bb16  bitcoin-0.11.0-osx-unsigned.dmg
+- out_manifest: ! '9f59ab82a71b12ea7980c452ce4c444b1c70f1ad3269a22dd0ac28f5a26a4731  bitcoin-0.11.0-osx-unsigned.dmg
 
-    b3dbcb589dde10b6a0fda9c259e553a4a1b0a970a4300e09ba44388ed1c1ce34  bitcoin-0.11.0-osx-unsigned.tar.gz
+    6fa60fe1532093bbc3693aa9c78c97115bda0915316e1368f1dec80cbedee7e6  bitcoin-0.11.0-osx-unsigned.tar.gz
 
-    b2137d3ddaffc6515da032a76d6ddd36f00315183eefabc050f5175b137ac497  bitcoin-0.11.0-osx64.tar.gz
+    c1cbdd1c528e6c670fdef89afcb0dfc3533a19ba5573d8a7f795923c075ac5f9  bitcoin-0.11.0-osx64.tar.gz
 
     8fd371c4ecf678e1786cd2afbe979edb66b80ac86010f6b68c51abb03df7d8cd  src/bitcoin-0.11.0.tar.gz
 
 '
 - in_manifest: ! 'b5b12d457b532b06e9da964729669a64ae753e1aa6cf628734e956164f41199f  bitcoin-osx-0.11-desc.yml
 
-    420409814ffa2fed0cba32eb30c56ab2826c463af54d26f5933e352c949b26ed  MacOSX10.9.sdk.tar.gz
+    ca57bdd0aff51c9487c40ab125ffc98e5aa6b1674c618c1d8db83ba440d04c4b  MacOSX10.9.sdk.tar.gz
 
     git:2b918beb7e822fdc4450165e2a0162a75b5160ff bitcoin'
 - base_manifests: !omap
@@ -120,8 +120,6 @@
 
       ab0531d9ad0bba2b6f746a48b156de8f5733803b5737b4ab7bf7d6e7bd3738d6  gcc-4.6-base_4.6.3-1ubuntu5_amd64.deb
 
-      e65b41c345c5d7501b9ad3d630a530b84666df7cdbe68dc4a9fb0873add3dd04  gcc-4.6-base_4.6.3-1ubuntu5_i386.deb
-
       ac9344b8ec6cae36696e705b3abcb4d918c51a7a1e49e91fbea6ecb7a1b47f6f  gcc-4.6_4.6.3-1ubuntu5_amd64.deb
 
       6a9ca6ded16274f0f96801e72af3c4dcee00456d1e9d11bd597019d29ca0ea33  gcc_4%3a4.6.3-1ubuntu5_amd64.deb
@@ -222,8 +220,6 @@
 
       2be90cd8ee2feaf109b42e397909476f1cfe38f49922b1629393ea5064416842  libc6_2.15-0ubuntu10.12_amd64.deb
 
-      4167353bb28e3302db8c090c8440fd44f65146dd20352089620f65eae60d08b7  libc6_2.15-0ubuntu10.12_i386.deb
-
       09ca39eef6839eade40710abe3897050fe79085249d4e1fa56b57c040791ebd0  libcap-dev_1%3a2.22-1ubuntu3_amd64.deb
 
       a44f4dbbcfd8bd94b9dc9700aa495fc7117157a51b2afe3e0b57ad1d07ac2258  libcap2-bin_1%3a2.22-1ubuntu3_amd64.deb
@@ -277,8 +273,6 @@
       9e1083a08e8f66fac100cf8a8aa3679c43793dcd26ddd9213d4650eebaa6d88e  libfuse2_2.8.6-2ubuntu2_amd64.deb
 
       aac526da2f2e44d76b11c6f6b6f8fbb646df0b73a2e1455da2ece45c7e3e401e  libgcc1_1%3a4.6.3-1ubuntu5_amd64.deb
-
-      8c9693764c2589464774df820713fefca82499ca38c2f0cb1b17a679a744e009  libgcc1_1%3a4.6.3-1ubuntu5_i386.deb
 
       0ef494fe09f032688f135459462f4914ae00a04022c38ea362af4a889a59ed0c  libgcrypt11_1.5.0-3ubuntu0.4_amd64.deb
 
@@ -590,7 +584,7 @@
 
       c52bf53d1f2bf733eb0add71b32322c686a7bd396cb8893cbd89210165d90838  tcpd_7.6.q-21_amd64.deb
 
-      bade83e7cbf318767032aa6a9cafd9068adf029c6c4bb93fe13ba13070678c26  tzdata_2015d-0ubuntu0.12.04_all.deb
+      f91cbc3ce1e4c13cd999e0e22091222b4e47963d9f5f7fc27c20bdd2246e38ed  tzdata_2015f-0ubuntu0.12.04_all.deb
 
       c60651841ad91dcb6d44dec85dae5c0360b3893558a1de2cbedd589595a43ff4  ubuntu-keyring_2011.11.21.1_all.deb
 
